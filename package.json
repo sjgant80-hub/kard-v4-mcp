@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/kard-v4-mcp",
+  "version": "1.0.0",
+  "description": "kard-v4 MCP server · stdio wrapper around @ai-native-solutions/kard-v4-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "kard-v4-mcp": "src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["kard-v4", "mcp", "model-context-protocol", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/kard-v4-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/kard-v4-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
